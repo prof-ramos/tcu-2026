@@ -1,0 +1,628 @@
+{
+  "conhecimentos_basicos": {
+    "lingua_portuguesa": [
+      "Interpretação de texto: decodificação dos diversos tipos de mensagem",
+      "Compreensão de texto: observação dos processos que constroem os significados textuais",
+      "A linguagem e a lógica",
+      "As estruturas linguísticas no processo de construção de mensagens adequadas",
+      "A pragmática na linguagem: o significado contextual",
+      "A semântica vocabular: antônimos, sinônimos, homônimos, parônimos e heterônimos",
+      "Os modos de organização discursiva: a descrição, a narração, a exposição informativa e a exposição argumentativa",
+      "A organização das frases nas situações comunicativas: a colaboração e a relevância; os atos de fala",
+      "A linguagem lógica e a figurada",
+      "Os diversos níveis de linguagem",
+      "Os tipos de discurso: direto, indireto e indireto livre",
+      "As funções da linguagem"
+    ],
+    "lingua_inglesa": {
+      "estrategias_leitura": [
+        "compreensão de tipos textuais diversos",
+        "reconhecimento de informações específicas",
+        "capacidade de análise e síntese",
+        "inferência e predição",
+        "reconhecimento de organização semântica e discursiva",
+        "uso de palavras mais frequentes, sinonímia e antonímia",
+        "coerência e coesão",
+        "funções retóricas",
+        "percepção de metáfora e metonímia"
+      ],
+      "aspectos_sintatico_gramaticais": [
+        "artigos definidos e indefinidos",
+        "tempos e modos verbais",
+        "uso de preposições, conjunções e pronomes e modais",
+        "comparação",
+        "concordância nominal e verbal",
+        "formação e classe de palavras",
+        "expressões idiomáticas",
+        "relações de subordinação e coordenação",
+        "voz passiva, discurso direto e indireto"
+      ]
+    },
+    "matematica_financeira": [
+      "Regra de três simples e composta, proporcionalidades e porcentagens",
+      "Juros simples e compostos",
+      "Capitalização e desconto",
+      "Taxas de juros nominal, efetiva, equivalente, real e aparente",
+      "Rendas uniformes e variáveis",
+      {
+        "planos_amortizacao": [
+          "Sistema francês (tabela Price)",
+          "Sistema de Amortização Constante (SAC)",
+          "Sistema de Amortização Misto (SAM)"
+        ]
+      },
+      {
+        "calculo_financeiro": [
+          "Custo real e efetivo das operações de financiamento, empréstimo e investimento"
+        ]
+      },
+      "Avaliação de alternativas de investimento em economia estável e em ambiente inflacionário",
+      "Avaliação econômica de projetos",
+      "Taxas de retorno e taxas internas de retorno"
+    ],
+    "controle_externo": [
+      {
+        "entidades_fiscalizadoras_superiores": [
+          "Declaração de Lima",
+          "Declaração do México - Independência das EFS (ISSAI 10)",
+          "Princípios de Transparência e Accountability (ISSAI 20)"
+        ]
+      },
+      {
+        "sistemas_controle_administracao_publica": [
+          "artigos 70 a 74 da Constituição Federal",
+          "Tribunais de Contas: funções, natureza jurídica e eficácia das decisões"
+        ]
+      },
+      {
+        "tribunal_contas_uniao": [
+          "natureza, competência e jurisdição",
+          "Organização. Julgamento e fiscalização",
+          "Lei Orgânica do TCU (Lei nº 8.443/1992)",
+          "Regimento Interno do TCU (Resolução-TCU nº 246/2011)"
+        ]
+      }
+    ],
+    "administracao_publica": [
+      "Administração Pública do modelo racional-legal ao paradigma pós burocrático",
+      "Políticas públicas. O ciclo das políticas públicas (construção de agenda, formulação da política, processo decisório, implementação e avaliação)",
+      "Processos participativos de gestão pública: conselhos de gestão, orçamento participativo, parceria entre governo e sociedade",
+      "Planejamento nas organizações públicas. O ciclo do planejamento (análise do ambiente, objetivos estratégicos, missão, visão, valores)",
+      "Governo eletrônico. Transparência da administração pública. Controle social e cidadania. Accountability",
+      "Gestão de Pessoas por Competências",
+      "Mudanças institucionais. Conselhos, Organizações Sociais, Organização da Sociedade Civil de Interesse Público (OSCIP), agência reguladora, agência executiva, consórcios públicos",
+      "Gestão por resultados na produção de serviços públicos",
+      {
+        "governabilidade_governanca": [
+          "Intermediação de interesses (clientelismo, corporativismo e neocorporativismo)",
+          "Princípios de governança pública"
+        ]
+      },
+      {
+        "politicas_publicas_estado_brasileiro": [
+          "Descentralização e democracia",
+          "Participação, atores sociais e controle social",
+          "Gestão local, cidadania e equidade social",
+          "Corrupção e políticas públicas: fatores que influenciam a incidência de corrupção e fatores que promovem a qualidade das políticas públicas"
+        ]
+      },
+      "O ciclo do planejamento em organizações (PDCA)",
+      {
+        "referencial_estrategico_organizacoes": [
+          "Análise de ambiente interno e externo",
+          "Ferramentas de análise de ambiente: análise SWOT, análise de cenários, matriz GUT",
+          "Negócio, missão, visão de futuro, valores"
+        ]
+      },
+      {
+        "indicadores_desempenho": [
+          "Tipos de indicadores",
+          "Variáveis componentes dos indicadores"
+        ]
+      }
+    ],
+    "direito_constitucional": [
+      {
+        "constituicao_1988": [
+          "Princípios fundamentais"
+        ]
+      },
+      {
+        "aplicabilidade_normas_constitucionais": [
+          "Normas de eficácia plena, contida e limitada",
+          "Normas programáticas"
+        ]
+      },
+      {
+        "direitos_garantias_fundamentais": [
+          "Direitos e deveres individuais e coletivos, direitos sociais, direitos de nacionalidade, direitos políticos, partidos políticos"
+        ]
+      },
+      {
+        "organizacao_politico_administrativa": [
+          "Estado federal brasileiro, União, estados, Distrito Federal, municípios e territórios"
+        ]
+      },
+      {
+        "administracao_publica": [
+          "Disposições gerais, servidores públicos"
+        ]
+      },
+      {
+        "poder_executivo": [
+          "Atribuições e responsabilidades do Presidente da República"
+        ]
+      },
+      {
+        "poder_legislativo": [
+          "Estrutura",
+          "Funcionamento e atribuições",
+          "Processo legislativo",
+          "Fiscalização contábil, financeira e orçamentária",
+          "Comissões parlamentares de inquérito"
+        ]
+      },
+      {
+        "poder_judiciario": [
+          "Disposições gerais",
+          {
+            "orgaos_poder_judiciario": [
+              {
+                "organizacao_competencias": [
+                  "Conselho Nacional de Justiça",
+                  "Composição e competências"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "funcoes_essenciais_justica": [
+          "Ministério Público e Advocacia Pública"
+        ]
+      }
+    ],
+    "direito_administrativo": [
+      {
+        "estado_governo_administracao": [
+          "Conceitos",
+          "Elementos"
+        ]
+      },
+      {
+        "direito_administrativo": [
+          "Conceito",
+          "Objeto",
+          "Fontes"
+        ]
+      },
+      {
+        "ato_administrativo": [
+          "Conceito, requisitos, atributos, classificação e espécies",
+          "Extinção do ato administrativo: cassação, anulação, revogação e convalidação",
+          "Decadência administrativa"
+        ]
+      },
+      {
+        "agentes_publicos": [
+          {
+            "legislacao_pertinente": [
+              "Lei nº 8.112/1990",
+              "Disposições constitucionais aplicáveis"
+            ]
+          },
+          {
+            "disposicoes_doutrinarias": [
+              "Conceito",
+              "Espécies",
+              "Cargo, emprego e função pública",
+              "Provimento",
+              "Vacância",
+              "Efetividade, estabilidade e vitaliciedade",
+              "Remuneração",
+              "Direitos e deveres",
+              "Responsabilidade",
+              "Processo administrativo disciplinar"
+            ]
+          }
+        ]
+      },
+      {
+        "poderes_administracao_publica": [
+          "Hierárquico, disciplinar, regulamentar e de polícia",
+          "Uso e abuso do poder"
+        ]
+      },
+      {
+        "regime_juridico_administrativo": [
+          "Conceito",
+          "Princípios expressos e implícitos da Administração Pública"
+        ]
+      },
+      {
+        "responsabilidade_civil_estado": [
+          "Evolução histórica",
+          {
+            "responsabilidade_civil_direito_brasileiro": [
+              "Responsabilidade por ato comissivo do Estado",
+              "Responsabilidade por omissão do Estado"
+            ]
+          },
+          "Requisitos para a demonstração da responsabilidade do Estado",
+          "Causas excludentes e atenuantes da responsabilidade do Estado",
+          "Reparação do dano",
+          "Direito de regresso"
+        ]
+      },
+      {
+        "servicos_publicos": [
+          "Conceito",
+          "Elementos constitutivos",
+          "Formas de prestação e meios de execução",
+          "Delegação: concessão, permissão e autorização",
+          "Classificação",
+          "Princípios"
+        ]
+      },
+      {
+        "organizacao_administrativa": [
+          "Centralização, descentralização, concentração e desconcentração",
+          "Administração direta e indireta",
+          "Autarquias, fundações, empresas públicas e sociedades de economia mista",
+          "Entidades paraestatais e terceiro setor: serviços sociais autônomos, entidades de apoio, organizações sociais, organizações da sociedade civil de interesse público"
+        ]
+      },
+      {
+        "controle_administracao_publica": [
+          "Controle exercido pela Administração Pública",
+          "Controle judicial",
+          "Controle legislativo",
+          "Improbidade administrativa: Lei nº 8.429/1992"
+        ]
+      },
+      {
+        "processo_administrativo": [
+          "Lei nº 9.784/1999"
+        ]
+      },
+      {
+        "licitacoes_contratos_administrativos": [
+          {
+            "legislacao_pertinente": [
+              "Lei nº 8.666/1993",
+              "Lei 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos)",
+              "Lei nº 10.520/2002 e demais disposições normativas relativas ao pregão",
+              "Decreto nº 7.892/2013 (sistema de registro de preços)",
+              "Lei nº 12.462/2011 (Regime Diferenciado de Contratações Públicas). Decreto nº 6.170/2007, Portaria Interministerial MPOG/MF/CGU Nº 507/2011 e Instrução Normativa do STN Nº 1/1997 (convênios e instrumentos congêneres)",
+              "Encomenda Tecnológica (ETEC) - Lei 10.973/2004, alterada pela Lei 13.243/2016 e Decreto 9.283/2018"
+            ]
+          },
+          "Fundamentos constitucionais"
+        ]
+      }
+    ],
+    "direito_civil": [
+      {
+        "lei_introducao_normas": [
+          "Vigência, aplicação, obrigatoriedade, interpretação e integração das leis",
+          "Conflito das leis no tempo",
+          "Eficácia das leis no espaço"
+        ]
+      },
+      {
+        "pessoas_naturais": [
+          "Conceito",
+          "Início da pessoa natural",
+          "Personalidade",
+          "Capacidade",
+          "Direitos da personalidade",
+          "Domicílio"
+        ]
+      },
+      {
+        "pessoas_juridicas": [
+          "Disposições Gerais",
+          "Constituição",
+          "Extinção",
+          "Sociedades de fato",
+          "Associações",
+          "Fundações"
+        ]
+      },
+      "Bens imóveis, móveis e públicos",
+      "Fato jurídico",
+      {
+        "negocio_juridico": [
+          "Disposições gerais",
+          "Invalidade"
+        ]
+      },
+      {
+        "prescricao": [
+          "Disposições gerais"
+        ]
+      },
+      "Decadência",
+      {
+        "obrigacoes": [
+          "Características",
+          "Adimplemento pelo pagamento",
+          "Inadimplemento das obrigações - disposições gerais e mora"
+        ]
+      },
+      {
+        "contratos": [
+          "Princípios",
+          "Contratos em geral",
+          "Disposições gerais"
+        ]
+      },
+      {
+        "responsabilidade_civil": [
+          "Responsabilidade civil objetiva e subjetiva",
+          "Obrigação de indenizar",
+          "Dano material"
+        ]
+      }
+    ],
+    "direito_processual_civil": [
+      {
+        "principios_processo": [
+          "Princípio do devido processo legal",
+          "Princípios do contraditório, da ampla defesa e do juiz natural"
+        ]
+      },
+      "Jurisdição",
+      {
+        "acao": [
+          "Condições da ação",
+          "Classificação"
+        ]
+      },
+      {
+        "atos_judiciais": [
+          "Despachos, decisões interlocutórias e sentenças"
+        ]
+      },
+      "Coisa julgada material",
+      "Controle judicial dos atos administrativos",
+      "Processo Estrutural. Problema Estrutural. Decisão Estrutural"
+    ],
+    "sistema_normativo_anticorrupcao": [
+      "Crimes contra a Administração Pública",
+      "Lei Anticorrupção 12.846/2013",
+      "Lei nº 12.850/2013 (Crime organizado)",
+      "Lei 9.613/1998 (Crimes de lavagem de dinheiro)",
+      "Lei 13.869/2019 Lei de abuso de autoridade",
+      "Convenção de Mérida (Decreto nº 5687/2006)",
+      "Convenção de Palermo (Decreto nº 5.015/2004)"
+    ]
+  },
+  "conhecimentos_especificos": {
+    "estatistica": [
+      "Metodologia e utilização da estatística. Variáveis quantitativas e qualitativas. Séries estatísticas",
+      "Organização e apresentação de variáveis",
+      {
+        "metodos_sumarizacao_analise": [
+          "Distribuição de frequências: absoluta, relativa, acumulada",
+          "Medidas de posição: média, moda, mediana e quartis",
+          "Medidas de dispersão: amplitude, variância, desvio-padrão, coeficiente de variação, amplitude interquartil",
+          "Correlação",
+          "Histogramas e curvas de frequência",
+          "Diagrama de caixa (boxplot) e identificação de valores atípicos (outliers)",
+          "Diagrama de dispersão"
+        ]
+      },
+      "Análise de dados categorizados",
+      "Distribuições de probabilidade. Distribuição binomial. Distribuição normal",
+      "Inferência estatística. Estimação de parâmetros por ponto e por intervalo. Intervalo de confiança. Testes de hipóteses. Testes paramétricos: médias e proporções",
+      "Análise de regressão linear",
+      "Técnicas de Amostragem",
+      "Análise multivariada",
+      "Séries Temporais: componentes estruturais das séries temporais e médias móveis"
+    ],
+    "analise_dados": [
+      "Dados estruturados e não estruturados. Dados abertos. Coleta, tratamento, armazenamento, integração e recuperação de dados. Processos de ETL. Formatos e tecnologias: XML, JSON, CSV. Representação de dados numéricos, textuais e estruturados; aritmética computacional. Representação de dados espaciais para georeferenciamento e geosensoriamento",
+      "Bancos de dados relacionais: teoria e implementação. Uso do SQL como DDL, DML, DCL. Processamento de transações",
+      "Exploração de dados: conceituação e características. Noções do modelo CRISP-DM. Técnicas para pré-processamento de dados. Técnicas e tarefas de mineração de dados. Classificação. Regras de associação. Análise de agrupamentos (clusterização). Detecção de anomalias. Modelagem preditiva",
+      "Conceitos de PLN: semântica vetorial, redução de dimensionalidade, modelagem de tópicos latentes, classificação de textos, análise de sentimentos, representações com n-gramas",
+      "Conceitos de ML: fontes de erro em modelos preditivos, validação e avaliação de modelos preditivos, underfitting, overfitting e técnicas de regularização, otimização de hiperparâmetros, separabilidade de dados, redução da dimensionalidade. Modelos lineares, árvores de decisão, redes neurais feed-forward, classificador Naive Bayes",
+      {
+        "linguagem_python": [
+          "sintaxe, variáveis, tipos de dados e estruturas de controle de fluxo. Estruturas de dados, funções e arquivos",
+          "Bibliotecas: NLTK, Tensor Flow, Pandas, Numpy, Arrow, Sklearn, Scipy"
+        ]
+      },
+      "Noções da Linguagem R. Sintaxe, tipos de dados, operadores, comandos de repetição, estruturas de dados, gráficos, Data frames. Tidyverse",
+      "Pareamento de dados (record linkage). Processo e etapas. Classificação. Qualidade de dados pareados. Análise de dados pareados",
+      "Segurança da informação: Confidencialidade, integridade, disponibilidade, autenticidade e não repúdio. Políticas de segurança. Políticas de classificação da informação. Sistemas de gestão de segurança da informação. Tratamento de incidentes de segurança da informação",
+      "Lei de Acesso à Informação (Lei nº 12.527/2011): conceitos e aplicação. Lei 13.709/2018, Lei Geral de Proteção de Dados Pessoais (LGPD)"
+    ],
+    "auditoria_governamental": [
+      {
+        "conceito_evolucao": [
+          "Auditoria interna e externa: papéis",
+          "Auditoria governamental segundo a INTOSAI (International Organization of Supreme Audit Institutions)"
+        ]
+      },
+      {
+        "normas_internacionais": [
+          "Normas da INTOSAI: princípios fundamentais de auditoria e código de ética do setor público (ISSAIs 100, 130)"
+        ]
+      },
+      "Normas de auditoria do TCU (Portaria-TCU nº 280/2010)",
+      {
+        "auditorias_conformidade_financeira_operacional": [
+          "Conceitos, características e finalidades",
+          "Outros instrumentos de fiscalização: levantamento, monitoramento, acompanhamento e inspeção",
+          {
+            "planejamento_auditoria": [
+              "Modelo de risco de auditoria",
+              "Termos da auditoria e estratégia global de auditoria",
+              "Técnicas para obtenção do entendimento do objeto e de seu ambiente",
+              "Materialidade",
+              "Escopo do trabalho",
+              "Avaliação dos riscos gerais do trabalho, dos riscos inerentes e de controle",
+              "Respostas do auditor aos riscos gerais do trabalho",
+              "Respostas do auditor aos riscos de distorção relevante ou residuais (natureza, época e extensão)",
+              "Matriz de Planejamento",
+              "Métodos de amostragem aplicáveis às auditorias: por atributos e por unidade monetária"
+            ]
+          },
+          "Técnicas e procedimentos: inspeção documental, inspeção física, reexecução, recálculo, observação direta, entrevista indagação, circularização, conciliação, procedimentos de revisão analítica, cruzamento eletrônico de dados",
+          "Suficiência e adequação das evidências",
+          "Matriz de Achados e Matriz de Responsabilização",
+          "Tipos de opinião de auditoria em trabalhos de asseguração razoável",
+          "Documentação da auditoria",
+          "Supervisão e Controle de Qualidade (Portaria-TCU nº 280/2010)"
+        ]
+      },
+      "Normas para a tomada e prestação de contas dos administradores e responsáveis da Administração Pública Federal, para fins de julgamento pelo Tribunal de Contas da União. (IN-TCU 84, de 22 de abril de 2020)"
+    ],
+    "contabilidade_aplicada_setor_publico": [
+      {
+        "nbc_tsp_estrutura_conceitual": [
+          {
+            "relatorio_contabil_proposito_geral": [
+              "objetivos e usuários; prestação de contas e responsabilização (accountability) e tomada de decisão; a continuidade das entidades do setor público; situação patrimonial, desempenho e fluxos de caixa; Regime de Competência e Regime de Caixa"
+            ]
+          },
+          {
+            "caracteristicas_qualitativas": [
+              "características qualitativas fundamentais; características qualitativas de melhoria"
+            ]
+          },
+          "Características da entidade que reporta a informação contábil",
+          {
+            "elementos_demonstracoes_contabeis": [
+              "propósito e definições de ativos e passivos, receitas e despesas; superávit ou déficit do exercício"
+            ]
+          },
+          {
+            "reconhecimento_mensuracao": [
+              "evidenciação, reconhecimento e desreconhecimento; bases de mensuração para ativos e passivo"
+            ]
+          }
+        ]
+      },
+      {
+        "estrutura_apresentacao_demonstracoes": [
+          "Definições, finalidade, componentes, estrutura e conteúdo das demonstrações: de acordo com a Lei 4320/1964; de acordo com a NBC T SP 11; de acordo com o MCASP"
+        ]
+      },
+      {
+        "plano_contas_setor_publico": [
+          "Conceito de contas patrimoniais e de resultado",
+          "Função e estrutura das contas",
+          "Escrituração: débito, crédito, saldo, sistema de partidas dobradas"
+        ]
+      },
+      {
+        "sistema_contabilidade_federal": [
+          "Organização e competências (Lei 10180/20021 e Decreto 6976/2009)",
+          "Sistema Integrado de Administração Financeira do Governo Federal (SIAFI): conceito, objetivos, usuários e segurança do sistema (princípios e instrumentos)"
+        ]
+      },
+      {
+        "topicos_lei_complementar_101_2000": [
+          "Conceitos de dívida pública e restos a pagar, escrituração e consolidação das contas",
+          "Relatório resumido da execução orçamentária: estrutura, composição",
+          "Relatório de gestão fiscal: estrutura, composição"
+        ]
+      },
+      {
+        "topicos_especiais_contabilidade": [
+          "Procedimentos Contábeis Orçamentários (Regime orçamentário e Regime Contábil ou patrimonial (MCASP))",
+          "Procedimentos Contábeis Patrimoniais conforme Manual de Contabilidade Aplicada ao Setor Público (MCASP), 8ª edição, aprovado pela Portaria STN nº 877, de 18 de dezembro de 2018",
+          "Restos a pagar, empenho, liquidação e pagamento (Lei 4.320/1964 e MCASP)",
+          "Apresentação de Informação Orçamentária nas Demonstrações Contábeis (NBC TSP 13)",
+          "Normas Internacionais de Contabilidade Aplicadas ao Setor Público (IPSAS)",
+          "Noções de Informações de Custos no Setor Público: NBC T 16.11 - Sistema de Informação de Custos do Setor Público",
+          "Manual de Informações de Custos do Governo Federal, aprovado pela Portaria STN nº 518/2018"
+        ]
+      },
+      "Trabalho de asseguração (NBC TA Estrutura Conceitual – Estrutura Conceitual para Trabalhos de Asseguração)"
+    ],
+    "analise_demonstracoes_contabeis": [
+      "Conceitos, cálculos, vantagens e desvantagens dos indicadores",
+      "Análise horizontal e vertical",
+      "Indicadores de estrutura de capital",
+      "Indicadores de liquidez",
+      "Informações extraídas das Notas Explicativas"
+    ],
+    "administracao_financeira_orcamentaria": [
+      {
+        "funcoes_governo": [
+          "Falhas de mercado e produção de bens públicos",
+          "Políticas econômicas governamentais (alocativa, distributiva e estabilizadora)",
+          "Federalismo Fiscal"
+        ]
+      },
+      {
+        "orcamento_publico": [
+          "Evolução conceitual do orçamento público",
+          "Orçamento-Programa: fundamentos e técnicas"
+        ]
+      },
+      {
+        "orcamento_publico_brasil": [
+          "Títulos I, IV, V e VI da Lei nº 4.320/1964",
+          "Orçamento na Constituição de 1988: Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO), Lei Orçamentária Anual (LOA)",
+          "Leis de Créditos Adicionais",
+          "Emendas parlamentares ao Orçamento"
+        ]
+      },
+      "Plano Plurianual (PPA): estrutura, base legal, objetivos, conteúdo, tipos de programas",
+      "Lei de Diretrizes Orçamentárias (LDO): objetivos, estrutura, base legal e conteúdo, Anexos de Metas Fiscais, Anexos de Riscos Fiscais, critérios para limitação de empenho",
+      {
+        "classificacoes_orcamentarias": [
+          "Classificação da despesa pública: institucional, funcional, programática, pela natureza e classificações adicionais previstas no Manual Técnico de Orçamento - MTO",
+          "Classificação da receita pública: institucional, por categorias econômicas, por fontes e classificações adicionais previstas no Manual Técnico de Orçamento - MTO"
+        ]
+      },
+      {
+        "ciclo_orcamentario": [
+          "elaboração da proposta, discussão, votação e aprovação da lei de orçamento",
+          "Execução orçamentária e financeira: estágios e execução da despesa pública e da receita pública",
+          "Programação de desembolso e mecanismos retificadores do orçamento",
+          "Conta Única do Tesouro Nacional: conceito e previsão legal"
+        ]
+      },
+      "Gestão organizacional das finanças públicas: sistema de planejamento e orçamento e de programação financeira constantes da Lei nº 10.180/2001",
+      "Tópicos selecionados da Lei Complementar nº 101/2000: princípios, conceitos, planejamento, renúncia de receitas, geração de despesas, transferências voluntárias, destinação de recursos para o setor privado, transparência da gestão fiscal, prestação de contas e fiscalização da gestão fiscal",
+      "Sistemas de informação da Administração Pública Federal: SIAFI, SIASG e SICONV. Finalidade. Principais informações",
+      "Lei nº 12.527/2011 – Lei de Acesso à Informação e portarias regulamentadoras"
+    ],
+    "economia_setor_publico_regulacao": [
+      {
+        "introducao": [
+          "o sistema de contas nacionais e as identidades macroeconômicas básicas",
+          "Produto agregado e os problemas de mensuração",
+          "Produto nominal x produto real",
+          "Contas do sistema monetário",
+          "Balanço de pagamentos"
+        ]
+      },
+      "O modelo keynesiano básico: o multiplicador e o papel dos gastos do governo",
+      {
+        "modelo_is_lm": [
+          "impactos das políticas monetária e fiscal",
+          "Políticas macroeconômicas em diferentes regimes cambiais",
+          "A avaliação do gasto público",
+          "O financiamento do setor público no Brasil",
+          "Conceitos de regulação, desregulação e re-regulação"
+        ]
+      },
+      "Teoria econômica de indústrias reguladas",
+      "Estrutura de mercado, concorrência perfeita e monopolística, oligopólio, monopólio",
+      "Falhas de mercado, externalidades, bens públicos, assimetria de informação (seleção adversa e perigo moral)",
+      "Regulação e formação de preços para estruturas de mercado de concorrência imperfeita",
+      "Conceitos básicos sobre regimes tarifários",
+      "Tarifação por custo de serviço",
+      "Tarifação por preço teto",
+      "Regulação por incentivos",
+      "Regulação para competição"
+    ]
+  }
+}

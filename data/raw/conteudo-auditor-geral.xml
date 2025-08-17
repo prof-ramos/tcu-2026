@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prova>
+  <conhecimentosBasicos>
+    <linguaPortuguesa>
+      <topico n="1">Interpretação de texto: decodificação dos diversos tipos de mensagem.</topico>
+      <topico n="2">Compreensão de texto: observação dos processos que constroem os significados textuais.</topico>
+      <topico n="3">A linguagem e a lógica.</topico>
+      <topico n="4">As estruturas linguísticas no processo de construção de mensagens adequadas.</topico>
+      <topico n="5">A pragmática na linguagem: o significado contextual.</topico>
+      <topico n="6">A semântica vocabular: antônimos, sinônimos, homônimos, parônimos e heterônimos.</topico>
+      <topico n="7">Os modos de organização discursiva: a descrição, a narração, a exposição informativa e a exposição argumentativa.</topico>
+      <topico n="8">A organização das frases nas situações comunicativas: a colaboração e a relevância; os atos de fala.</topico>
+      <topico n="9">A linguagem lógica e a figurada.</topico>
+      <topico n="10">Os diversos níveis de linguagem.</topico>
+      <topico n="11">Os tipos de discurso: direto, indireto e indireto livre.</topico>
+      <topico n="12">As funções da linguagem.</topico>
+    </linguaPortuguesa>
+
+    <linguaInglesa>
+      <topico n="1" titulo="Estratégias de leitura em língua inglesa">
+        <subtopico n="1.1">Compreensão de tipos textuais diversos.</subtopico>
+        <subtopico n="1.2">Reconhecimento de informações específicas.</subtopico>
+        <subtopico n="1.3">Capacidade de análise e síntese.</subtopico>
+        <subtopico n="1.4">Inferência e predição.</subtopico>
+        <subtopico n="1.5">Reconhecimento de organização semântica e discursiva.</subtopico>
+        <subtopico n="1.6">Uso de palavras mais frequentes, sinonímia e antonímia.</subtopico>
+        <subtopico n="1.7">Coerência e coesão.</subtopico>
+        <subtopico n="1.8">Funções retóricas.</subtopico>
+        <subtopico n="1.9">Percepção de metáfora e metonímia.</subtopico>
+      </topico>
+      <topico n="2" titulo="Aspectos sintático-gramaticais relevantes à compreensão de texto">
+        <subtopico n="2.1">Artigos definidos e indefinidos.</subtopico>
+        <subtopico n="2.2">Tempos e modos verbais.</subtopico>
+        <subtopico n="2.3">Uso de preposições, conjunções e pronomes e modais.</subtopico>
+        <subtopico n="2.4">Comparação.</subtopico>
+        <subtopico n="2.5">Concordância nominal e verbal.</subtopico>
+        <subtopico n="2.6">Formação e classe de palavras.</subtopico>
+        <subtopico n="2.7">Expressões idiomáticas.</subtopico>
+        <subtopico n="2.8">Relações de subordinação e coordenação.</subtopico>
+        <subtopico n="2.9">Voz passiva, discurso direto e indireto.</subtopico>
+      </topico>
+    </linguaInglesa>
+
+    <matematicaFinanceira>
+      <topico n="1">Regra de três simples e composta, proporcionalidades e porcentagens.</topico>
+      <topico n="2">Juros simples e compostos.</topico>
+      <topico n="3">Capitalização e desconto.</topico>
+      <topico n="4">Taxas de juros nominal, efetiva, equivalente, real e aparente.</topico>
+      <topico n="5">Rendas uniformes e variáveis.</topico>
+      <topico n="6" titulo="Planos de amortização de empréstimos e financiamentos">
+        <subtopico n="6.1">Sistema francês (tabela Price).</subtopico>
+        <subtopico n="6.2">Sistema de Amortização Constante (SAC).</subtopico>
+        <subtopico n="6.3">Sistema de Amortização Misto (SAM).</subtopico>
+      </topico>
+      <topico n="7" titulo="Cálculo financeiro">
+        <subtopico n="7.1">Custo real e efetivo das operações de financiamento, empréstimo e investimento.</subtopico>
+      </topico>
+      <topico n="8">Avaliação de alternativas de investimento em economia estável e em ambiente inflacionário.</topico>
+      <topico n="9">Avaliação econômica de projetos.</topico>
+      <topico n="10">Taxas de retorno e taxas internas de retorno.</topico>
+    </matematicaFinanceira>
+
+    <controleExterno>
+      <topico n="1" titulo="Entidades Fiscalizadoras Superiores (EFS)">
+        <subtopico n="1.1">Declaração de Lima.</subtopico>
+        <subtopico n="1.2">Declaração do México - Independência das EFS (ISSAI 10).</subtopico>
+        <subtopico n="1.3">Princípios de Transparência e Accountability (ISSAI 20).</subtopico>
+      </topico>
+      <topico n="2" titulo="Sistemas de Controle na Administração Pública Brasileira">
+        <subtopico n="2.0">Artigos 70 a 74 da Constituição Federal.</subtopico>
+        <subtopico n="2.1">Tribunais de Contas: funções, natureza jurídica e eficácia das decisões.</subtopico>
+      </topico>
+      <topico n="3" titulo="Tribunal de Contas da União">
+        <subtopico n="3.1">Organização. Julgamento e fiscalização.</subtopico>
+        <subtopico n="3.2">Lei Orgânica do TCU (Lei nº 8.443/1992).</subtopico>
+        <subtopico n="3.3">Regimento Interno do TCU (Resolução-TCU nº 246/2011).</subtopico>
+      </topico>
+    </controleExterno>
+
+    <administracaoPublica>
+      <topico n="1">Administração Pública do modelo racional-legal ao paradigma pós-burocrático.</topico>
+      <topico n="2">Políticas públicas. O ciclo das políticas públicas (construção de agenda, formulação da política, processo decisório, implementação e avaliação).</topico>
+      <topico n="3">Processos participativos de gestão pública: conselhos de gestão, orçamento participativo, parceria entre governo e sociedade.</topico>
+      <topico n="4">Planejamento nas organizações públicas. O ciclo do planejamento (análise do ambiente, objetivos estratégicos, missão, visão, valores).</topico>
+      <topico n="5">Governo eletrônico. Transparência da administração pública. Controle social e cidadania. Accountability.</topico>
+      <topico n="6">Gestão de Pessoas por Competências.</topico>
+      <topico n="7">Mudanças institucionais. Conselhos, Organizações Sociais, OSCIP, agência reguladora, agência executiva, consórcios públicos.</topico>
+      <topico n="8">Gestão por resultados na produção de serviços públicos.</topico>
+      <topico n="9" titulo="Governabilidade e governança">
+        <subtopico n="9.1">Intermediação de interesses (clientelismo, corporativismo e neocorporativismo).</subtopico>
+        <subtopico n="9.2">Princípios de governança pública.</subtopico>
+      </topico>
+      <topico n="10" titulo="As políticas públicas no Estado brasileiro contemporâneo">
+        <subtopico n="10.1">Descentralização e democracia.</subtopico>
+        <subtopico n="10.2">Participação, atores sociais e controle social.</subtopico>
+        <subtopico n="10.3">Gestão local, cidadania e equidade social.</subtopico>
+        <subtopico n="10.4">Corrupção e políticas públicas: fatores que influenciam a incidência de corrupção e fatores que promovem a qualidade das políticas públicas.</subtopico>
+      </topico>
+      <topico n="11">O ciclo do planejamento em organizações (PDCA).</topico>
+      <topico n="12" titulo="Referencial Estratégico das Organizações">
+        <subtopico n="12.1">Análise de ambiente interno e externo.</subtopico>
+        <subtopico n="12.2">Ferramentas de análise de ambiente: análise SWOT, análise de cenários, matriz GUT.</subtopico>
+        <subtopico n="12.3">Negócio, missão, visão de futuro, valores.</subtopico>
+      </topico>
+      <topico n="13" titulo="Indicadores de desempenho">
+        <subtopico n="13.1">Tipos de indicadores.</subtopico>
+        <subtopico n="13.2">Variáveis componentes dos indicadores.</subtopico>
+      </topico>
+    </administracaoPublica>
+
+    <direitoConstitucional>
+      <topico n="1" titulo="Constituição da República Federativa do Brasil de 1988">
+        <subtopico n="1.1">Princípios fundamentais.</subtopico>
+      </topico>
+      <topico n="2" titulo="Aplicabilidade das normas constitucionais">
+        <subtopico n="2.1">Normas de eficácia plena, contida e limitada.</subtopico>
+        <subtopico n="2.2">Normas programáticas.</subtopico>
+      </topico>
+      <topico n="3" titulo="Direitos e garantias fundamentais">
+        <subtopico n="3.1">Direitos e deveres individuais e coletivos, direitos sociais, direitos de nacionalidade, direitos políticos, partidos políticos.</subtopico>
+      </topico>
+      <topico n="4" titulo="Organização político-administrativa do Estado">
+        <subtopico n="4.1">Estado federal brasileiro, União, estados, Distrito Federal, municípios e territórios.</subtopico>
+      </topico>
+      <topico n="5" titulo="Administração Pública">
+        <subtopico n="5.1">Disposições gerais, servidores públicos.</subtopico>
+      </topico>
+      <topico n="6" titulo="Poder executivo">
+        <subtopico n="6.1">Atribuições e responsabilidades do Presidente da República.</subtopico>
+      </topico>
+      <topico n="7" titulo="Poder legislativo">
+        <subtopico n="7.1">Estrutura.</subtopico>
+        <subtopico n="7.2">Funcionamento e atribuições.</subtopico>
+        <subtopico n="7.3">Processo legislativo.</subtopico>
+        <subtopico n="7.4">Fiscalização contábil, financeira e orçamentária.</subtopico>
+        <subtopico n="7.5">Comissões parlamentares de inquérito.</subtopico>
+      </topico>
+      <topico n="8" titulo="Poder judiciário">
+        <subtopico n="8.1">Disposições gerais.</subtopico>
+        <subtopico n="8.2" titulo="Órgãos do poder judiciário">
+          <subsubtopico n="8.2.1">Organização e competências, Conselho Nacional de Justiça.</subsubtopico>
+          <subsubtopico n="8.2.1.1">Composição e competências.</subsubtopico>
+        </subtopico>
+      </topico>
+      <topico n="9" titulo="Funções essenciais à justiça">
+        <subtopico n="9.1">Ministério Público e Advocacia Pública.</subtopico>
+      </topico>
+    </direitoConstitucional>
+
+    <direitoAdministrativo>
+      <topico n="1" titulo="Estado, governo e Administração Pública">
+        <subtopico n="1.1">Conceitos.</subtopico>
+        <subtopico n="1.2">Elementos.</subtopico>
+      </topico>
+      <topico n="2" titulo="Direito administrativo">
+        <subtopico n="2.1">Conceito.</subtopico>
+        <subtopico n="2.2">Objeto.</subtopico>
+        <subtopico n="2.3">Fontes.</subtopico>
+      </topico>
+      <topico n="3" titulo="Ato administrativo">
+        <subtopico n="3.1">Conceito, requisitos, atributos, classificação e espécies.</subtopico>
+        <subtopico n="3.2">Extinção do ato administrativo: cassação, anulação, revogação e convalidação.</subtopico>
+        <subtopico n="3.3">Decadência administrativa.</subtopico>
+      </topico>
+      <topico n="4" titulo="Agentes públicos">
+        <subtopico n="4.1" titulo="Legislação pertinente">
+          <subsubtopico n="4.1.1">Lei nº 8.112/1990.</subsubtopico>
+          <subsubtopico n="4.1.2">Disposições constitucionais aplicáveis.</subsubtopico>
+        </subtopico>
+        <subtopico n="4.2" titulo="Disposições doutrinárias">
+          <subsubtopico n="4.2.1">Conceito.</subsubtopico>
+          <subsubtopico n="4.2.2">Espécies.</subsubtopico>
+          <subsubtopico n="4.2.3">Cargo, emprego e função pública.</subsubtopico>
+          <subsubtopico n="4.2.4">Provimento.</subsubtopico>
+          <subsubtopico n="4.2.5">Vacância.</subsubtopico>
+          <subsubtopico n="4.2.6">Efetividade, estabilidade e vitaliciedade.</subsubtopico>
+          <subsubtopico n="4.2.7">Remuneração.</subsubtopico>
+          <subsubtopico n="4.2.8">Direitos e deveres.</subsubtopico>
+          <subsubtopico n="4.2.9">Responsabilidade.</subsubtopico>
+          <subsubtopico n="4.2.10">Processo administrativo disciplinar.</subsubtopico>
+        </subtopico>
+      </topico>
+      <topico n="5" titulo="Poderes da Administração Pública">
+        <subtopico n="5.1">Hierárquico, disciplinar, regulamentar e de polícia.</subtopico>
+        <subtopico n="5.2">Uso e abuso do poder.</subtopico>
+      </topico>
+      <topico n="6" titulo="Regime jurídico-administrativo">
+        <subtopico n="6.1">Conceito.</subtopico>
+        <subtopico n="6.2">Princípios expressos e implícitos da Administração Pública.</subtopico>
+      </topico>
+      <topico n="7" titulo="Responsabilidade civil do Estado">
+        <subtopico n="7.1">Evolução histórica.</subtopico>
+        <subtopico n="7.2" titulo="Responsabilidade civil do Estado no direito brasileiro">
+          <subsubtopico n="7.2.1">Responsabilidade por ato comissivo do Estado.</subsubtopico>
+          <subsubtopico n="7.2.2">Responsabilidade por omissão do Estado.</subsubtopico>
+        </subtopico>
+        <subtopico n="7.3">Requisitos para a demonstração da responsabilidade do Estado.</subtopico>
+        <subtopico n="7.4">Causas excludentes e atenuantes da responsabilidade do Estado.</subtopico>
+        <subtopico n="7.5">Reparação do dano.</subtopico>
+        <subtopico n="7.6">Direito de regresso.</subtopico>
+      </topico>
+      <topico n="8" titulo="Serviços públicos">
+        <subtopico n="8.1">Conceito.</subtopico>
+        <subtopico n="8.2">Elementos constitutivos.</subtopico>
+        <subtopico n="8.3">Formas de prestação e meios de execução.</subtopico>
+        <subtopico n="8.4">Delegação: concessão, permissão e autorização.</subtopico>
+        <subtopico n="8.5">Classificação.</subtopico>
+        <subtopico n="8.6">Princípios.</subtopico>
+      </topico>
+      <topico n="9" titulo="Organização administrativa">
+        <subtopico n="9.1">Centralização, descentralização, concentração e desconcentração.</subtopico>
+        <subtopico n="9.2">Administração direta e indireta.</subtopico>
+        <subtopico n="9.3">Autarquias, fundações, empresas públicas e sociedades de economia mista.</subtopico>
+        <subtopico n="9.4">Entidades paraestatais e terceiro setor: serviços sociais autônomos, entidades de apoio, organizações sociais, OSCIP.</subtopico>
+      </topico>
+      <topico n="10" titulo="Controle da Administração Pública">
+        <subtopico n="10.1">Controle exercido pela Administração Pública.</subtopico>
+        <subtopico n="10.2">Controle judicial.</subtopico>
+        <subtopico n="10.3">Controle legislativo.</subtopico>
+        <subtopico n="10.4">Improbidade administrativa: Lei nº 8.429/1992.</subtopico>
+      </topico>
+      <topico n="11" titulo="Processo administrativo">
+        <subtopico n="11.1">Lei nº 9.784/1999.</subtopico>
+      </topico>
+      <topico n="12" titulo="Licitações e contratos administrativos">
+        <subtopico n="12.1" titulo="Legislação pertinente">
+          <subsubtopico n="12.1.1">Lei nº 8.666/1993.</subsubtopico>
+          <subsubtopico n="12.1.2">Lei 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos).</subsubtopico>
+          <subsubtopico n="12.1.3">Lei nº 10.520/2002 e demais normas do pregão.</subsubtopico>
+          <subsubtopico n="12.1.4">Decreto nº 7.892/2013 (sistema de registro de preços).</subsubtopico>
+          <subsubtopico n="12.1.5">Lei nº 12.462/2011 (RDC); Decreto nº 6.170/2007; Portaria Interministerial MPOG/MF/CGU nº 507/2011; IN STN nº 1/1997 (convênios e congêneres).</subsubtopico>
+          <subsubtopico n="12.1.6">Encomenda Tecnológica (ETEC) - Lei 10.973/2004, alterada pela Lei 13.243/2016 e Decreto 9.283/2018.</subsubtopico>
+        </subtopico>
+        <subtopico n="12.2">Fundamentos constitucionais.</subtopico>
+      </topico>
+    </direitoAdministrativo>
+
+    <direitoCivil>
+      <topico n="1" titulo="Lei de introdução às normas do direito brasileiro">
+        <subtopico n="1.1">Vigência, aplicação, obrigatoriedade, interpretação e integração das leis.</subtopico>
+        <subtopico n="1.2">Conflito das leis no tempo.</subtopico>
+        <subtopico n="1.3">Eficácia das leis no espaço.</subtopico>
+      </topico>
+      <topico n="2" titulo="Pessoas naturais">
+        <subtopico n="2.1">Conceito.</subtopico>
+        <subtopico n="2.2">Início da pessoa natural.</subtopico>
+        <subtopico n="2.3">Personalidade.</subtopico>
+        <subtopico n="2.4">Capacidade.</subtopico>
+        <subtopico n="2.5">Direitos da personalidade.</subtopico>
+        <subtopico n="2.6">Domicílio.</subtopico>
+      </topico>
+      <topico n="3" titulo="Pessoas jurídicas">
+        <subtopico n="3.1">Disposições Gerais.</subtopico>
+        <subtopico n="3.2">Constituição.</subtopico>
+        <subtopico n="3.3">Extinção.</subtopico>
+        <subtopico n="3.4">Sociedades de fato.</subtopico>
+        <subtopico n="3.5">Associações.</subtopico>
+        <subtopico n="3.6">Fundações.</subtopico>
+      </topico>
+      <topico n="4">Bens imóveis, móveis e públicos.</topico>
+      <topico n="5">Fato jurídico.</topico>
+      <topico n="6" titulo="Negócio jurídico">
+        <subtopico n="6.1">Disposições gerais.</subtopico>
+        <subtopico n="6.2">Invalidade.</subtopico>
+      </topico>
+      <topico n="7" titulo="Prescrição">
+        <subtopico n="7.1">Disposições gerais.</subtopico>
+      </topico>
+      <topico n="8">Decadência.</topico>
+      <topico n="9" titulo="Obrigações">
+        <subtopico n="9.1">Características.</subtopico>
+        <subtopico n="9.2">Adimplemento pelo pagamento.</subtopico>
+        <subtopico n="9.3">Inadimplemento das obrigações - disposições gerais e mora.</subtopico>
+      </topico>
+      <topico n="10" titulo="Contratos">
+        <subtopico n="10.1">Princípios.</subtopico>
+        <subtopico n="10.2">Contratos em geral.</subtopico>
+        <subtopico n="10.3">Disposições gerais.</subtopico>
+      </topico>
+      <topico n="11" titulo="Responsabilidade civil objetiva e subjetiva">
+        <subtopico n="11.1">Obrigação de indenizar.</subtopico>
+        <subtopico n="11.2">Dano material.</subtopico>
+      </topico>
+    </direitoCivil>
+
+    <direitoProcessualCivil>
+      <topico n="1" titulo="Princípios do processo">
+        <subtopico n="1.1">Princípio do devido processo legal.</subtopico>
+        <subtopico n="1.2">Princípios do contraditório, da ampla defesa e do juiz natural.</subtopico>
+      </topico>
+      <topico n="2">Jurisdição.</topico>
+      <topico n="3" titulo="Ação">
+        <subtopico n="3.1">Condições da ação.</subtopico>
+        <subtopico n="3.2">Classificação.</subtopico>
+      </topico>
+      <topico n="4" titulo="Atos judiciais">
+        <subtopico n="4.1">Despachos, decisões interlocutórias e sentenças.</subtopico>
+      </topico>
+      <topico n="5">Coisa julgada material.</topico>
+      <topico n="6">Controle judicial dos atos administrativos.</topico>
+      <topico n="7">Processo Estrutural. Problema Estrutural. Decisão Estrutural.</topico>
+    </direitoProcessualCivil>
+
+    <sistemaNormativoAnticorrupcao>
+      <topico n="1">Crimes contra a Administração Pública.</topico>
+      <topico n="2">Lei Anticorrupção 12.846/2013.</topico>
+      <topico n="3">Lei nº 12.850/2013 (Crime organizado).</topico>
+      <topico n="4">Lei 9.613/1998 (Crimes de lavagem de dinheiro).</topico>
+      <topico n="5">Lei 13.869/2019 (Lei de abuso de autoridade).</topico>
+      <topico n="6">Convenção de Mérida (Decreto nº 5.687/2006).</topico>
+      <topico n="7">Convenção de Palermo (Decreto nº 5.015/2004).</topico>
+    </sistemaNormativoAnticorrupcao>
+  </conhecimentosBasicos>
+
+  <conhecimentosEspecificos>
+    <estatistica>
+      <topico n="1">Metodologia e utilização da estatística. Variáveis quantitativas e qualitativas. Séries estatísticas.</topico>
+      <topico n="2">Organização e apresentação de variáveis.</topico>
+      <topico n="3" titulo="Métodos para sumarização e análise exploratória de dados">
+        <subtopico n="3.1">Distribuição de frequências: absoluta, relativa, acumulada.</subtopico>
+        <subtopico n="3.2">Medidas de posição: média, moda, mediana e quartis.</subtopico>
+        <subtopico n="3.3">Medidas de dispersão: amplitude, variância, desvio-padrão, coeficiente de variação, amplitude interquartil.</subtopico>
+        <subtopico n="3.4">Correlação.</subtopico>
+        <subtopico n="3.5">Histogramas e curvas de frequência.</subtopico>
+        <subtopico n="3.6">Diagrama de caixa (boxplot) e identificação de valores atípicos (outliers).</subtopico>
+        <subtopico n="3.7">Diagrama de dispersão.</subtopico>
+      </topico>
+      <topico n="4">Análise de dados categorizados.</topico>
+      <topico n="5">Distribuições de probabilidade. Distribuição binomial. Distribuição normal.</topico>
+      <topico n="6">Inferência estatística. Estimação de parâmetros por ponto e por intervalo. Intervalo de confiança. Testes de hipóteses. Testes paramétricos: médias e proporções.</topico>
+      <topico n="7">Análise de regressão linear.</topico>
+      <topico n="8">Técnicas de Amostragem.</topico>
+      <topico n="9">Análise multivariada.</topico>
+      <topico n="10">Séries Temporais: componentes estruturais das séries temporais e médias móveis.</topico>
+    </estatistica>
+
+    <analiseDeDados>
+      <topico n="1">Dados estruturados e não estruturados. Dados abertos. Coleta, tratamento, armazenamento, integração e recuperação de dados. Processos de ETL. Formatos e tecnologias: XML, JSON, CSV. Representação de dados numéricos, textuais e estruturados; aritmética computacional. Representação de dados espaciais para georreferenciamento e geosensoriamento.</topico>
+      <topico n="2">Bancos de dados relacionais: teoria e implementação. Uso do SQL como DDL, DML, DCL. Processamento de transações.</topico>
+      <topico n="3">Exploração de dados: conceituação e características. Noções do modelo CRISP-DM. Técnicas para pré-processamento de dados. Técnicas e tarefas de mineração de dados. Classificação. Regras de associação. Análise de agrupamentos (clusterização). Detecção de anomalias. Modelagem preditiva.</topico>
+      <topico n="4">Conceitos de PLN: semântica vetorial, redução de dimensionalidade, modelagem de tópicos latentes, classificação de textos, análise de sentimentos, representações com n-gramas.</topico>
+      <topico n="5">Conceitos de ML: fontes de erro em modelos preditivos, validação e avaliação de modelos preditivos, underfitting, overfitting e técnicas de regularização, otimização de hiperparâmetros, separabilidade de dados, redução da dimensionalidade. Modelos lineares, árvores de decisão, redes neurais feed-forward, classificador Naive Bayes.</topico>
+      <topico n="6" titulo="Linguagem Python">
+        <subtopico n="6.0">Sintaxe, variáveis, tipos de dados e estruturas de controle de fluxo. Estruturas de dados, funções e arquivos.</subtopico>
+        <subtopico n="6.1">Bibliotecas: NLTK, Tensor Flow, Pandas, Numpy, Arrow, Sklearn, Scipy.</subtopico>
+      </topico>
+      <topico n="7">Noções da Linguagem R. Sintaxe, tipos de dados, operadores, comandos de repetição, estruturas de dados, gráficos, Data frames. Tidyverse.</topico>
+      <topico n="8">Pareamento de dados (record linkage). Processo e etapas. Classificação. Qualidade de dados pareados. Análise de dados pareados.</topico>
+      <topico n="9">Segurança da informação: Confidencialidade, integridade, disponibilidade, autenticidade e não repúdio. Políticas de segurança. Políticas de classificação da informação. Sistemas de gestão de segurança da informação. Tratamento de incidentes de segurança da informação.</topico>
+      <topico n="10">Lei de Acesso à Informação (Lei nº 12.527/2011): conceitos e aplicação. Lei 13.709/2018, Lei Geral de Proteção de Dados Pessoais (LGPD).</topico>
+    </analiseDeDados>
+
+    <auditoriaGovernamental>
+      <topico n="1" titulo="Conceito, evolução">
+        <subtopico n="1.1">Auditoria interna e externa: papéis.</subtopico>
+        <subtopico n="1.2">Auditoria governamental segundo a INTOSAI.</subtopico>
+      </topico>
+      <topico n="2" titulo="Normas internacionais para o exercício profissional da auditoria">
+        <subtopico n="2.1">Normas da INTOSAI: ISSAIs 100, 130.</subtopico>
+      </topico>
+      <topico n="3">Normas de auditoria do TCU (Portaria-TCU nº 280/2010).</topico>
+      <topico n="4" titulo="Auditorias de conformidade, financeira e operacional">
+        <subtopico n="4.1">Conceitos, características e finalidades. Outros instrumentos: levantamento, monitoramento, acompanhamento e inspeção.</subtopico>
+        <subtopico n="4.3" titulo="Planejamento de auditoria">
+          <subsubtopico n="4.3.1">Modelo de risco de auditoria.</subsubtopico>
+          <subsubtopico n="4.3.2">Termos da auditoria e estratégia global.</subsubtopico>
+          <subsubtopico n="4.3.3">Técnicas para entendimento do objeto e ambiente.</subsubtopico>
+          <subsubtopico n="4.3.4">Materialidade.</subsubtopico>
+          <subsubtopico n="4.3.5">Escopo do trabalho.</subsubtopico>
+          <subsubtopico n="4.3.6">Avaliação de riscos gerais, inerentes e de controle.</subsubtopico>
+          <subsubtopico n="4.3.7">Respostas do auditor aos riscos gerais.</subsubtopico>
+          <subsubtopico n="4.3.8">Respostas aos riscos de distorção relevante (natureza, época e extensão).</subsubtopico>
+          <subsubtopico n="4.3.9">Matriz de Planejamento.</subsubtopico>
+          <subsubtopico n="4.3.10">Amostragem: por atributos e por unidade monetária.</subsubtopico>
+        </subtopico>
+        <subtopico n="4.4">Técnicas e procedimentos: inspeções, reexecução, recálculo, observação, entrevistas, circularização, conciliação, revisão analítica, cruzamento eletrônico.</subtopico>
+        <subtopico n="4.5">Suficiência e adequação das evidências.</subtopico>
+        <subtopico n="4.6">Matriz de Achados e Matriz de Responsabilização.</subtopico>
+        <subtopico n="4.7">Tipos de opinião em asseguração razoável.</subtopico>
+        <subtopico n="4.8">Documentação da auditoria.</subtopico>
+        <subtopico n="4.9">Supervisão e Controle de Qualidade (Portaria-TCU nº 280/2010).</subtopico>
+      </topico>
+      <topico n="5">IN-TCU 84/2020: tomada e prestação de contas.</topico>
+    </auditoriaGovernamental>
+
+    <contabilidadeSetorPublico>
+      <topico n="1" titulo="NBC TSP Estrutura Conceitual">
+        <subtopico n="1.1">RCPG: objetivos e usuários; accountability e decisão; continuidade; situação patrimonial, desempenho e fluxos de caixa; regimes de competência e de caixa.</subtopico>
+        <subtopico n="1.2">Características qualitativas: fundamentais e de melhoria.</subtopico>
+        <subtopico n="1.3">Características da entidade que reporta.</subtopico>
+        <subtopico n="1.4">Elementos: ativos, passivos, receitas, despesas; superávit ou déficit.</subtopico>
+        <subtopico n="1.5">Reconhecimento e mensuração: evidenciação, (des)reconhecimento; bases de mensuração.</subtopico>
+      </topico>
+      <topico n="2" titulo="Demonstrações Contábeis do Setor Público">
+        <subtopico n="2.1">Lei 4.320/1964; NBC T SP 11; MCASP.</subtopico>
+      </topico>
+      <topico n="3" titulo="Plano de Contas aplicado ao Setor Público">
+        <subtopico n="3.1">Contas patrimoniais e de resultado.</subtopico>
+        <subtopico n="3.2">Função e estrutura das contas.</subtopico>
+        <subtopico n="3.3">Escrituração: débito, crédito, saldo, partidas dobradas.</subtopico>
+      </topico>
+      <topico n="4" titulo="Sistema de Contabilidade Federal">
+        <subtopico n="4.1">Organização e competências (Lei 10.180/2001 e Decreto 6.976/2009).</subtopico>
+        <subtopico n="4.2">SIAFI: conceito, objetivos, usuários e segurança.</subtopico>
+      </topico>
+      <topico n="5" titulo="Lei de Responsabilidade Fiscal (LC 101/2000)">
+        <subtopico n="5.1">Dívida pública e restos a pagar; escrituração e consolidação.</subtopico>
+        <subtopico n="5.2">RREO: estrutura e composição.</subtopico>
+        <subtopico n="5.3">RGF: estrutura e composição.</subtopico>
+      </topico>
+      <topico n="6" titulo="Tópicos especiais">
+        <subtopico n="6.1">Procedimentos Contábeis Orçamentários (MCASP).</subtopico>
+        <subtopico n="6.2">PCPs patrimoniais (MCASP 8ª ed., Portaria STN nº 877/2018).</subtopico>
+        <subtopico n="6.3">Restos a pagar, empenho, liquidação e pagamento.</subtopico>
+        <subtopico n="6.4">NBC TSP 13: informação orçamentária nas demonstrações.</subtopico>
+        <subtopico n="6.5">IPSAS.</subtopico>
+        <subtopico n="6.6">Custos no Setor Público: NBC T 16.11.</subtopico>
+        <subtopico n="6.7">Manual de Informações de Custos (Portaria STN nº 518/2018).</subtopico>
+      </topico>
+      <topico n="7">Trabalhos de asseguração (NBC TA – Estrutura Conceitual).</topico>
+    </contabilidadeSetorPublico>
+
+    <analiseDemonstrucoesContabeis>
+      <topico n="1">Conceitos, cálculos, vantagens e desvantagens dos indicadores.</topico>
+      <topico n="2">Análise horizontal e vertical.</topico>
+      <topico n="3">Indicadores de estrutura de capital.</topico>
+      <topico n="4">Indicadores de liquidez.</topico>
+      <topico n="5">Informações das Notas Explicativas.</topico>
+    </analiseDemonstrucoesContabeis>
+
+    <administracaoFinanceiraOrcamentaria>
+      <topico n="1" titulo="Funções do Governo">
+        <subtopico n="1.1">Falhas de mercado e bens públicos.</subtopico>
+        <subtopico n="1.2">Políticas econômicas (alocativa, distributiva, estabilizadora).</subtopico>
+        <subtopico n="1.3">Federalismo Fiscal.</subtopico>
+      </topico>
+      <topico n="2" titulo="Orçamento público: conceitos e princípios">
+        <subtopico n="2.1">Evolução conceitual.</subtopico>
+        <subtopico n="2.2">Orçamento-Programa: fundamentos e técnicas.</subtopico>
+      </topico>
+      <topico n="3" titulo="Orçamento público no Brasil">
+        <subtopico n="3.1">CF/1988: PPA, LDO, LOA.</subtopico>
+        <subtopico n="3.2">Leis de Créditos Adicionais.</subtopico>
+        <subtopico n="3.3">Emendas parlamentares ao Orçamento.</subtopico>
+      </topico>
+      <topico n="4">Plano Plurianual (PPA): estrutura, base legal, objetivos, conteúdo, tipos de programas.</topico>
+      <topico n="5">Lei de Diretrizes Orçamentárias (LDO): objetivos, estrutura, base legal e conteúdo, Anexos de Metas e de Riscos Fiscais, critérios de limitação de empenho.</topico>
+      <topico n="6" titulo="Classificações orçamentárias">
+        <subtopico n="6.1">Despesa: institucional, funcional, programática, natureza e adicionais (MTO).</subtopico>
+        <subtopico n="6.2">Receita: institucional, categorias econômicas, por fontes e adicionais (MTO).</subtopico>
+      </topico>
+      <topico n="7" titulo="Ciclo orçamentário">
+        <subtopico n="7.1">Execução orçamentária e financeira: estágios da despesa e da receita.</subtopico>
+        <subtopico n="7.2">Programação de desembolso e mecanismos retificadores.</subtopico>
+        <subtopico n="7.3">Conta Única do Tesouro Nacional: conceito e previsão legal.</subtopico>
+      </topico>
+      <topico n="8">Gestão organizacional das finanças públicas: Lei nº 10.180/2001.</topico>
+      <topico n="9">LC 101/2000: princípios, planejamento, renúncia, despesas, transferências, destinação ao setor privado, transparência, prestação de contas e fiscalização.</topico>
+      <topico n="10">Sistemas: SIAFI, SIASG, SICONV. Finalidade e principais informações.</topico>
+      <topico n="11">Lei nº 12.527/2011 – LAI e portarias.</topico>
+    </administracaoFinanceiraOrcamentaria>
+
+    <economiaSetorPublicoRegulacao>
+      <topico n="1" titulo="Introdução: contas nacionais e identidades">
+        <subtopico n="1.1">Produto agregado e mensuração.</subtopico>
+        <subtopico n="1.2">Produto nominal x real.</subtopico>
+        <subtopico n="1.3">Contas do sistema monetário.</subtopico>
+        <subtopico n="1.4">Balanço de pagamentos.</subtopico>
+      </topico>
+      <topico n="2">Modelo keynesiano: multiplicador e papel dos gastos do governo.</topico>
+      <topico n="3" titulo="Modelo IS/LM: políticas monetária e fiscal">
+        <subtopico n="3.1">Políticas em diferentes regimes cambiais.</subtopico>
+        <subtopico n="3.2">Avaliação do gasto público.</subtopico>
+        <subtopico n="3.3">Financiamento do setor público no Brasil.</subtopico>
+        <subtopico n="3.4">Conceitos de regulação, desregulação e re-regulação.</subtopico>
+      </topico>
+      <topico n="4">Teoria econômica de indústrias reguladas.</topico>
+      <topico n="5">Estrutura de mercado: concorrência perfeita e monopolística, oligopólio, monopólio.</topico>
+      <topico n="6">Falhas de mercado, externalidades, bens públicos, assimetria de informação (seleção adversa e perigo moral).</topico>
+      <topico n="7">Regulação e formação de preços em concorrência imperfeita.</topico>
+      <topico n="8">Conceitos básicos sobre regimes tarifários.</topico>
+      <topico n="9">Tarifação por custo de serviço.</topico>
+      <topico n="10">Tarifação por preço-teto.</topico>
+      <topico n="11">Regulação por incentivos.</topico>
+      <topico n="12">Regulação para competição.</topico>
+    </economiaSetorPublicoRegulacao>
+  </conhecimentosEspecificos>
+</prova>
