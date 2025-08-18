@@ -1,0 +1,144 @@
+name: 🔍 Data Validation
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  validate-data:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, '3.10', '3.11']
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+
+    - name: 🐍 Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+        pip install pytest pandas-profiling
+
+    - name: 🧪 Validate data integrity
+      run: |
+        python -c "
+        import pandas as pd
+        import sys
+        
+        print('🔍 Validando integridade dos dados...')
+        
+        # Carregar dados processados
+        try:
+            df = pd.read_csv('data/processed/db-questoes-limpo.csv')
+            print(f'✅ Dados carregados: {len(df)} registros')
+        except Exception as e:
+            print(f'❌ Erro ao carregar dados: {e}')
+            sys.exit(1)
+        
+        # Validações básicas
+        errors = []
+        
+        # 1. Verificar se não há valores nulos
+        null_count = df.isnull().sum().sum()
+        if null_count > 0:
+            errors.append(f'❌ Encontrados {null_count} valores nulos')
+        else:
+            print('✅ Nenhum valor nulo encontrado')
+        
+        # 2. Verificar colunas esperadas
+        expected_cols = ['hierarquia', 'topico', 'quantidade_encontrada', 'porcentagem_encontrada', 
+                        'quantidade_caderno', 'porcentagem_caderno', 'porcentagem_encontrada_num', 
+                        'porcentagem_caderno_num', 'nivel_hierarquia']
+        missing_cols = set(expected_cols) - set(df.columns)
+        if missing_cols:
+            errors.append(f'❌ Colunas faltando: {missing_cols}')
+        else:
+            print('✅ Todas as colunas esperadas presentes')
+        
+        # 3. Verificar tipos de dados
+        if df['quantidade_encontrada'].dtype not in ['int64', 'int32']:
+            errors.append('❌ Coluna quantidade_encontrada deve ser numérica')
+        else:
+            print('✅ Tipos de dados corretos')
+        
+        # 4. Verificar ranges de porcentagem
+        pct_out_of_range = ((df['porcentagem_encontrada_num'] < 0) | (df['porcentagem_encontrada_num'] > 100)).sum()
+        if pct_out_of_range > 0:
+            errors.append(f'❌ {pct_out_of_range} porcentagens fora do range 0-100')
+        else:
+            print('✅ Porcentagens dentro do range válido')
+        
+        # 5. Verificar consistência de totais
+        total_encontrada = df['quantidade_encontrada'].sum()
+        total_caderno = df['quantidade_caderno'].sum()
+        diff = abs(total_encontrada - total_caderno)
+        if diff > 10:  # Tolerância de 10 questões
+            errors.append(f'❌ Diferença muito grande entre totais: {diff}')
+        else:
+            print(f'✅ Totais consistentes (diferença: {diff})')
+        
+        # Relatório final
+        if errors:
+            print('\\n❌ VALIDAÇÃO FALHOU:')
+            for error in errors:
+                print(error)
+            sys.exit(1)
+        else:
+            print('\\n🎉 VALIDAÇÃO PASSOU! Dados íntegros e consistentes.')
+            print(f'📊 Resumo: {len(df)} registros, {df[\"topico\"].nunique()} tópicos únicos')
+        "
+
+    - name: 🔍 Test data loading script
+      run: |
+        cd scripts
+        python -c "
+        import clean_data
+        print('✅ Script de limpeza importado com sucesso')
+        "
+
+    - name: 📊 Generate data summary
+      if: matrix.python-version == '3.11'
+      run: |
+        python -c "
+        import pandas as pd
+        
+        df = pd.read_csv('data/processed/db-questoes-limpo.csv')
+        
+        print('\\n📊 RESUMO DOS DADOS:')
+        print(f'Total de registros: {len(df):,}')
+        print(f'Total de questões: {df[\"quantidade_encontrada\"].sum():,}')
+        print(f'Tópicos únicos: {df[\"topico\"].nunique():,}')
+        print(f'Níveis hierárquicos: {df[\"nivel_hierarquia\"].nunique()}')
+        
+        print('\\n📚 TOP 5 DISCIPLINAS:')
+        top_disciplines = df[df['nivel_hierarquia'] == 0].nlargest(5, 'quantidade_encontrada')
+        for _, row in top_disciplines.iterrows():
+            print(f'  {row[\"topico\"]}: {row[\"quantidade_encontrada\"]:,} questões ({row[\"porcentagem_encontrada\"]})')
+        
+        print('\\n📈 DISTRIBUIÇÃO HIERÁRQUICA:')
+        hierarchy_dist = df['nivel_hierarquia'].value_counts().sort_index()
+        for level, count in hierarchy_dist.items():
+            print(f'  Nível {level}: {count:,} registros')
+        "
+
+    - name: ✅ Success notification
+      if: success()
+      run: |
+        echo "🎉 Validação de dados concluída com sucesso!"
+        echo "✅ Dados íntegros e prontos para uso"

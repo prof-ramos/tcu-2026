@@ -1,0 +1,89 @@
+name: ❓ Question
+description: Fazer uma pergunta sobre o projeto
+title: "[QUESTION] "
+labels: ["question", "needs-response"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tem uma dúvida? Estamos aqui para ajudar! Por favor, seja específico para que possamos dar a melhor resposta.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 📂 Categoria da Pergunta
+      description: Sobre que aspecto do projeto você tem dúvidas?
+      options:
+        - "📊 Como usar os dados"
+        - "🐍 Scripts Python"
+        - "📈 Análise de dados"
+        - "🔧 Configuração e setup"
+        - "📚 Documentação"
+        - "🎯 TCU e concursos públicos"
+        - "🤝 Como contribuir"
+        - "📦 Releases e versões"
+        - "🔗 Integração com outras ferramentas"
+        - "🎨 Customização"
+        - "📋 Outro"
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: ❓ Sua Pergunta
+      description: Descreva sua dúvida de forma clara e detalhada
+      placeholder: Ex. Como posso filtrar apenas as questões de Direito Administrativo?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🎯 Contexto
+      description: Forneça mais contexto sobre o que você está tentando fazer
+      placeholder: Ex. Estou criando um simulado focado apenas em uma disciplina...
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: 🔍 O que já tentou?
+      description: Descreva o que você já tentou fazer (se aplicável)
+      placeholder: Ex. Tentei usar df[df['topico'].contains('Direito')] mas...
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: ⏰ Urgência
+      description: Qual a urgência da sua pergunta?
+      options:
+        - "🔥 Urgente - Bloqueando meu trabalho"
+        - "📊 Normal - Gostaria de uma resposta em alguns dias"
+        - "💡 Baixa - Apenas curiosidade"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🖥️ Ambiente (se relevante)
+      description: Informações técnicas que podem ajudar
+      value: |
+        - SO: [ex. Windows 10, macOS 12, Ubuntu 20.04]
+        - Python: [ex. 3.9.7]
+        - Pandas: [ex. 1.5.0]
+        - Ferramenta: [ex. Jupyter, VS Code, Excel]
+      render: markdown
+
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: ✔️ Checklist
+      description: Antes de fazer a pergunta, você:
+      options:
+        - label: Pesquisou na documentação do projeto
+          required: true
+        - label: Verificou se não há perguntas similares nas Issues
+          required: true
+        - label: Tentou resolver por conta própria
+          required: false

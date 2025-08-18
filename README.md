@@ -5,6 +5,13 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Data](https://img.shields.io/badge/Data-Cleaned-brightgreen.svg)](data/processed/)
+[![GitHub release](https://img.shields.io/github/v/release/prof-ramos/tcu-2026?color=blue)](https://github.com/prof-ramos/tcu-2026/releases)
+[![GitHub Pages](https://img.shields.io/badge/Docs-GitHub%20Pages-blue.svg)](https://prof-ramos.github.io/tcu-2026)
+[![Dataset Size](https://img.shields.io/badge/Dataset-293k%20questões-orange.svg)](data/processed/db-questoes-limpo.csv)
+[![GitHub last commit](https://img.shields.io/github/last-commit/prof-ramos/tcu-2026)](https://github.com/prof-ramos/tcu-2026/commits/main)
+[![GitHub contributors](https://img.shields.io/github/contributors/prof-ramos/tcu-2026)](https://github.com/prof-ramos/tcu-2026/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/prof-ramos/tcu-2026?style=social)](https://github.com/prof-ramos/tcu-2026/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/prof-ramos/tcu-2026?style=social)](https://github.com/prof-ramos/tcu-2026/network)
 
 ## 🎯 Sobre o Projeto
 
@@ -48,7 +55,7 @@ tcu-2026/
 
 ### 1. **Clone o Repositório**
 ```bash
-git clone https://github.com/SEU_USUARIO/tcu-2026.git
+git clone https://github.com/prof-ramos/tcu-2026.git
 cd tcu-2026
 ```
 
@@ -210,7 +217,7 @@ Este dataset é especialmente útil para:
 
 **🎯 TCU 2026 - Dados organizados para o seu sucesso! 🚀**
 
-[![GitHub stars](https://img.shields.io/github/stars/SEU_USUARIO/tcu-2026?style=social)](https://github.com/SEU_USUARIO/tcu-2026/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/SEU_USUARIO/tcu-2026?style=social)](https://github.com/SEU_USUARIO/tcu-2026/network)
+[![GitHub stars](https://img.shields.io/github/stars/prof-ramos/tcu-2026?style=social)](https://github.com/prof-ramos/tcu-2026/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/prof-ramos/tcu-2026?style=social)](https://github.com/prof-ramos/tcu-2026/network)
 
 </div>

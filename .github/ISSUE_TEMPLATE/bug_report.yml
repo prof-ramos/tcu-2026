@@ -1,0 +1,99 @@
+name: 🐛 Bug Report
+description: Reportar um bug ou problema no projeto
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar um bug! Por favor, preencha as informações abaixo para nos ajudar a resolver o problema rapidamente.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Descrição do Bug
+      description: Descreva claramente o que está acontecendo de errado
+      placeholder: Ex. Ao carregar o arquivo Excel, recebo um erro de encoding...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 🔄 Passos para Reproduzir
+      description: Passos detalhados para reproduzir o problema
+      placeholder: |
+        1. Abra o arquivo '...'
+        2. Execute o comando '...'
+        3. Veja o erro
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Comportamento Esperado
+      description: O que deveria acontecer?
+      placeholder: Ex. O arquivo deveria carregar sem erros...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Comportamento Atual
+      description: O que está acontecendo agora?
+      placeholder: Ex. Recebo uma mensagem de erro...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: 🧩 Componente Afetado
+      description: Qual parte do projeto está com problema?
+      options:
+        - "Dados (arquivos Excel/CSV)"
+        - "Scripts Python"
+        - "Documentação"
+        - "Estrutura do repositório"
+        - "Outro"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🖥️ Ambiente
+      description: Informações sobre seu ambiente
+      value: |
+        - SO: [ex. Windows 10, macOS 12, Ubuntu 20.04]
+        - Python: [ex. 3.9.7]
+        - Pandas: [ex. 1.5.0]
+        - Navegador: [se aplicável]
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📋 Logs/Capturas de Tela
+      description: Cole logs de erro ou adicione capturas de tela
+      placeholder: |
+        ```
+        Cole aqui qualquer log de erro ou traceback
+        ```
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ✔️ Checklist
+      description: Confirme que você verificou os itens abaixo
+      options:
+        - label: Verifiquei se não há issues similares já abertas
+          required: true
+        - label: Testei com a versão mais recente do projeto
+          required: true
+        - label: Li a documentação relevante
+          required: false
